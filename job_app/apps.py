@@ -1,5 +1,11 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 from django.apps import AppConfig
 
 
-class JobAppConfig(AppConfig):
-    name = 'job_app'
+class SiteAppConfig(AppConfig):
+    name = 'site_app'
+
+class GeoqueryConfig(AppConfig):
+    name = 'geoquery'

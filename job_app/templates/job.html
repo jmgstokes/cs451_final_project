@@ -1,0 +1,17 @@
+<!-- job.html -->
+{% extends "base.html" %}
+
+{% block content_body %}
+    <div class="row">
+      <div class="col">
+        <h2>Job</h2>
+        <p>{{ object.title }}</p>
+        <p>{{ object.salary }}</p>
+        <p>{{ object.nearby }}</p>
+
+        <h4>Location (log./lat.)</h4>
+        <p>{{ object.location }}</p>
+
+      </div>
+    </div>
+{% endblock %}
